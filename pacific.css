@@ -1,0 +1,146 @@
+/*  File: pacific.css
+    GUI Assignment: HW2
+    Jordy Guzman, UMass Lowell Computer Science, jordy_guzmanalcaraz@student.uml.edu (c) 2023 
+    by Guzman. All rights reserved. May be freely copied or excerpted for educational 
+    purposes with credit to the author.
+*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-image: url(ptrbackground.jpg); /*Setting background image using image */
+	background-size: 100% 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom: 500px;		/* Adding padding to bottom of webpage to extend background */
+}
+
+nav ul {
+	font-size: 1.2em;
+	font-weight: bold;	/* Bold each entry in Nav Bar */
+	background-color: #8dc6e4;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	list-style: none;	/* Removing Bullets from List */
+	padding: 10px;
+	padding-top: 20px;
+	margin-left: 10%;
+	width: 200px;		/* Nav Bar has constant width */
+	float: left;
+	height: 379px;		/* Starting height */
+	@media (max-width: 1430px) {	/* Adjusting Height based on width of window */
+		height: 397px;
+	}
+	@media (max-width: 1234px) {	/* Adjusting Height based on width of window */
+		height: 416px;
+	}
+	@media (max-width: 1190px) {	/* Adjusting Height based on width of window */
+		height: 434px;
+	}
+	@media (max-width: 1154px) {	/* Adjusting Height based on width of window */
+		height: 452.5px;
+	}
+	@media (max-width: 1125px) {	/* Adjusting Height based on width of window */
+		height: 471px;
+	}
+	@media (max-width: 1117px) {	/* Adjusting Height based on width of window */
+		height: 489px;
+	}
+	@media (max-width: 1098px) {	/* Adjusting Height based on width of window */
+		height: 508px;
+	}
+	@media (max-width: 1067px) {	/* Adjusting Height based on width of window */
+		height: 526px;
+	}
+	@media (max-width: 988px) {		/* Adjusting Height based on width of window */
+		height: 544.5px;
+	}
+	@media (max-width: 974px) {		/* Adjusting Height based on width of window */
+		height: 563px;
+	}
+	@media (max-width: 939px) {		/* Adjusting Height based on width of window */
+		height: 581px;
+	}
+	@media (max-width: 904px) {		/* Adjusting Height based on width of window */
+		height: 600px;
+	}
+	@media (max-width: 900px) {		/* Adjusting Height based on width of window */
+		height: 618px;
+	}
+	@media (max-width: 876px) {		/* Adjusting Height based on width of window */
+		height: 628.5px;
+	}
+	@media (max-width: 876px) {		/* Adjusting Height based on width of window */
+		height: 647px;
+	}
+	@media (max-width: 796px) {		/* Adjusting Height based on width of window */
+		height: 665px;
+	}
+}
+nav a{
+	text-decoration: none;			/* Remove Underline */
+	color: black;
+	padding: 10px;
+}
+nav a:visited {
+	color: #303364				/* Color for visited nav bar links */
+}
+nav a:hover {
+	color: #FFFFFF;			/* Color when hovering over options in Nav */
+}
+#content p{
+	padding-left: 10px;
+}
+#content span{
+	color: #597a9a;			
+	font-weight: bold;			/* Makes text bold */
+}
+#content ul{
+	padding-left: 55px;
+	list-style-image: url(marker.gif);		/* Bullets replace with image icon */
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	color: white;
+	margin-left: 10%;					/* Margins set for main header */
+	margin-right: 10%;
+	background-image: url(sunset.jpg);		/* Sets background image of main header to image */
+	background-size: 100% 100%;
+	min-width: 600px;					/* Minimum width set to 600px */
+}
+#content{
+	background-color: white;
+	padding: 10px;
+	margin-left: calc(10% + 220px);		/* Adjusting left margin based on window width and nav bar */
+	margin-right: 10%;
+	min-width: 380px;
+}
+#content img{
+	float: left;
+	padding-right: 40px;		/* Padding added to image in content section */
+	padding-left: 10px;
+}
+h2 {
+	color: #3399CC;
+	padding-left: 10px;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	padding-left: 10px;
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: white;
+	padding: 10px;
+	margin-left: calc(10% + 220px);		/* Adjusting left margin based on window width and nav bar */
+	margin-right: 10%;
+	min-width: 380px;
+}
+

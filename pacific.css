@@ -69,7 +69,7 @@ nav ul {
 	@media (max-width: 876px) {		/* Adjusting Height based on width of window */
 		height: 628.5px;
 	}
-	@media (max-width: 876px) {		/* Adjusting Height based on width of window */
+	@media (max-width: 844px) {		/* Adjusting Height based on width of window */
 		height: 647px;
 	}
 	@media (max-width: 796px) {		/* Adjusting Height based on width of window */
